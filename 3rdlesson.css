@@ -1,4 +1,4 @@
-<style >
+
 .uber-request-button {
     background-color: black;
     color: white;
@@ -120,4 +120,23 @@
         background-color: rgb(177 237 229);
     }
 
-</style >
+    .sha {
+        background-color: aquamarine;
+        color: #010108;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 8px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 15px;
+        border-color: #1313a7;
+        transition: background-color 1.5s, border-width 1.5s;
+        cursor: pointer;
+    }
+    
+        .sha:hover {
+            border-width: 3px;
+            background-color: rgb(41, 128, 116);
+        }
